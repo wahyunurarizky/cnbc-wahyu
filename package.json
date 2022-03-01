@@ -2,9 +2,10 @@
   "name": "berita-indo-api",
   "version": "1.4.0",
   "description": "An api to display news in Indonesia",
-  "main": "index.js",
+  "main": "api/server.ts",
   "scripts": {
     "dev": "ts-node ./api/server.ts",
+    "start": "npx tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
